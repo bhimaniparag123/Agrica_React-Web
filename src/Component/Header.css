@@ -1,0 +1,9 @@
+.navbar-nav .nav-link.active-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: #e50914; /* Red underline */
+}
