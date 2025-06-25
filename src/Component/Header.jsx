@@ -6,7 +6,7 @@ import "./Header.css";
 import { Link } from 'react-router-dom';
 import { BsChevronDown, BsSearch, BsPerson, BsCart, BsHeart,  } from "react-icons/bs";
 
-function NavScrollExample() {
+function NavScrollExample() { 
   return (
     <Navbar style={{ backgroundColor: "#ffe0d8" }}>
       <Container className='ps-0 pe-0 '>
